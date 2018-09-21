@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('landing-page');
+    return view('landing-page-test');
 });
