@@ -30,7 +30,30 @@ body, html {
     background-image: url("/img/bglogo.jpg");
     min-height: 400px;
 }
-
+.customIcon{
+    width:15%;
+    height:15%;
+    padding-right: 2px;
+    vertical-align:center;
+}
+.customIconS{
+    width:7%;
+    height:7%;
+    padding-right: 2px;
+    vertical-align:center;
+}
+.customIconC{
+    width:3%;
+    height:3%;
+    padding-right: 2px;
+    vertical-align:center;
+}
+.customIconU{
+    width:4%;
+    height:4%;
+    padding-right: 2px;
+    vertical-align:center;
+}
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 

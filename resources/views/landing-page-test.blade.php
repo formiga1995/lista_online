@@ -12,21 +12,21 @@
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
+  <div class="w3-bar" id="myNavbar" style="background-color: white;">
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
+    <img  class="customIcon" src="/img/icons/menu-button-of-three-horizontal-lines.png">
     </a>
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> SOBRE</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTATO</a>
+    <a href="#home" class="w3-bar-item w3-button"><img  class="customIcon" src="/img/icons/home-icon-silhouette.png">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small "><img  class="customIcon" src="/img/icons/information.png"> SOBRE</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small "><img  class="customIcon" src="/img/icons/share.png">CONEXÕES</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small "><img  class="customIcon" src="/img/icons/letter.png"> CONTATO</a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">SOBRE</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTATO</a>
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()"><img  class="customIconS" src="/img/icons/information.png">SOBRE</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()"><img  class="customIconS" src="/img/icons/share.png">CONEXÕES</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()"><img  class="customIconS" src="/img/icons/letter.png">CONTATO</a>
   </div>
 </div>
 
@@ -41,14 +41,14 @@
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">BIOGRAFIA</h3>
   <p class="w3-center"><em></em></p>
-  <p>Tenho 23 anos, sou bacharelado em Ciência da Computação, formado em dezembro de 2018. Gosto de jogar videogame e
+  <p>Tenho 23 anos, sou bacharelado em Ciência da Computação, formado em dezembro de 2018 pelo UniCEUB. Gosto de jogar videogame e
   torcer para o meu time de futebol americano, o Seattle Seahawks. Faço transmissões na <a href="https://www.twitch.tv/meneziis">Twitch</a> por gosto.
   Meus estilos de música favoritos são: Heavy Metal, Eletrônica, Jazz e Rock Clássico. Falando em jogos, eu participo de campeonatos da 
   Liga Amadora da GamersClub de Counter-Strike: Global Offensive.</p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>Gabriel Menezes Formiga</b></p><br>
-      <img src="img/profilepic.jpg" class="w3-round w3-image" alt="Foto minha" width="500" height="333">
+      <p><b><img class="customIconU" src="/img/icons/user.png">Gabriel Menezes Formiga</b></p><br>
+      <img src="img/profilepic.jpg" class="w3-round w3-image" alt="Foto minha" width="250" height="111">
     </div>
 
     <!-- Hide this text on small devices -->
@@ -57,41 +57,9 @@
     </div>
   </div>
   <p class="w3-large w3-center w3-padding-16">Algumas das minhas proficiências curriculares:</p>
-  <p class="w3-wide"><i class="fa fa-camera"></i>Inglês</p>
+  <p class="w3-wide"><img class="customIconU" src="/img/icons/english-language.png"></i>Inglês</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:95%">95%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Hadoop Administration</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:70%">70%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
   </div>
 </div>
 
@@ -119,51 +87,59 @@
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+    <span class="w3-xxlarge w3-text-white w3-wide">CONEXÕES</span>
   </div>
 </div>
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <h3 class="w3-center">MY WORK</h3>
-  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+  <h3 class="w3-center">ENCONTRE-ME EM:</h3>
+  <p class="w3-center"><em></em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-      <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+       <!--<img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">-->
+       <a href="">GitHub</a>
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+       <!--<img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">-->
+       <a href="">Linked In</a>
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+       <!--<img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">-->
+       <a href="">Facebook</a>
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+       <!--<img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">-->
+       <a href="">Instagram</a>
     </div>
   </div>
 
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
-      <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+       <!--<img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">-->
+       <a href="">Xbox</a>
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+       <!--<img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">-->
+       <a href="">Steam</a>
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+       <!--<img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">-->
+       <a href="">Discord</a>
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+       <!--<img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">-->
+       <a href="">Spotify</a>
     </div>
-    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+     <!--<button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button> -->
   </div>
 </div>
 
@@ -179,13 +155,13 @@
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTATO</span>
   </div>
 </div>
 
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
-  <h3 class="w3-center">CONTATO</h3>
+  <h3 class="w3-center">ENTRE EM CONTATO COMIGO</h3>
 
   <div class="w3-row w3-padding-32 w3-section">
 
@@ -197,10 +173,14 @@
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Brasília, DF<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Celular: (61) 99905-2256 / (61) 98219-7817<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> E-mail: gmfformiga@gmail.com<br>
+        <img  class="customIconC" src="/img/icons/maps-and-flags.png"> Brasília, DF<br>
+        <img  class="customIconC" src="/img/icons/phone-call.png">Celular: (61) 99905-2256 / (61) 98219-7817<br>
+        <img  class="customIconC" src="/img/icons/letter.png">E-mail: gmfformiga@gmail.com<br>
+        <div>
+
+        </div>
       </div>
+      <!--
       <p>Caso deseje deixar uma mensagem:</p>
       <form action="/action_page.php" target="_blank">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
@@ -216,6 +196,7 @@
           <i class="fa fa-paper-plane"></i> ENVIAR MENSAGEM
         </button>
       </form>
+      -->
     </div>
   </div>
 </div>
@@ -223,6 +204,7 @@
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Iníncio</a>
+  <!--
   <div class="w3-xlarge w3-section">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
@@ -231,6 +213,7 @@
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
+-->
   <!--
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
   -->
