@@ -54,6 +54,26 @@ body, html {
     padding-right: 2px;
     vertical-align:center;
 }
+.conectionsA{
+	color: rgb(99, 99, 99);
+	background-color: #dfdbdb;
+    border: 1px solid #dfdbdb;
+    border-radius: 5%;
+    display: block;
+	padding: 5px;
+	margin-left: 10px;
+	text-align: center;	
+	font-size: 10pt;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+
+}
+.conectionsA:hover{
+	border: 1px solid #8d8d8d;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 2px 2px 0 rgba(0,0,0,0.19);
+	color: black;
+}
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 

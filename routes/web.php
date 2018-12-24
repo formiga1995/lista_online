@@ -14,3 +14,4 @@
 Route::get('/', function () {
     return view('landing-page-test');
 });
+Route::get('/download','FTP@download')->name('download');

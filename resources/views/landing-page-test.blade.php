@@ -57,10 +57,11 @@
     </div>
   </div>
   <p class="w3-large w3-center w3-padding-16">Algumas das minhas proficiências curriculares:</p>
-  <p class="w3-wide"><img class="customIconU" src="/img/icons/english-language.png"></i>Inglês</p>
+  <p class="w3-wide"><img class="customIconU" src="/img/icons/english-language.png">Inglês</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:95%">95%</div>
   </div>
+  <p class="w3-large w3-center w3-padding-16"><a href="{{route('download')}}">Meu curriculo</a></p>
 </div>
 
 <h3 class="w3-center twtichSectionText"><a href="https://www.twitch.tv/meneziis" style="text-decoration:none">MEU CANAL NA TWITCH<img src="img/twitch_PNG8.png" class="twtichLogo"></a></h3>
@@ -100,44 +101,44 @@
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
        <!--<img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">-->
-       <a href="">GitHub</a>
+       <a href="https://github.com/formiga1995" class="conectionsA"><img src="img/icons/github-logo.png" class="customIcon">GitHub</a>
     </div>
 
     <div class="w3-col m3">
        <!--<img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">-->
-       <a href="">Linked In</a>
+       <a href="https://www.linkedin.com/in/gabriel-menezes-formiga-4b6164152/" class="conectionsA"><img src="img/Linkedin.png" class="customIcon">Linked In</a>
     </div>
 
     <div class="w3-col m3">
        <!--<img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">-->
-       <a href="">Facebook</a>
+       <a href="https://www.facebook.com/gabriel.m.formiga" class="conectionsA"><img src="img/icons/facebook.png" class="customIcon">Facebook</a>
     </div>
 
     <div class="w3-col m3">
        <!--<img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">-->
-       <a href="">Instagram</a>
+       <a href="https://www.instagram.com/meneziis/?hl=pt-br" class="conectionsA"><img src="img/icons/instagram.png" class="customIcon">Instagram</a>
     </div>
   </div>
 
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
        <!--<img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">-->
-       <a href="">Xbox</a>
+       <a href="https://www.skype.com/pt-br/" class="conectionsA"><img src="img/skype-logo-1.png" class="customIcon">mhenezis_br</a>
     </div>
 
     <div class="w3-col m3">
        <!--<img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">-->
-       <a href="">Steam</a>
+       <a href="https://steamcommunity.com/id/meneziis" class="conectionsA"><img src="img/icons/steam-logo.png" class="customIcon">Steam</a>
     </div>
 
     <div class="w3-col m3">
        <!--<img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">-->
-       <a href="">Discord</a>
+       <a href="https://discord.gg/hQ9qXNs" class="conectionsA"><img src="img/icons/discord.png" class="customIcon">Discord</a>
     </div>
 
     <div class="w3-col m3">
        <!--<img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">-->
-       <a href="">Spotify</a>
+       <a href="https://open.spotify.com/playlist/7vcwkgGgDGWj3NBezb3mrP" class="conectionsA"><img src="img/icons/spotify.png" class="customIcon">Spotify</a>
     </div>
      <!--<button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button> -->
   </div>
@@ -174,7 +175,7 @@
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
         <img  class="customIconC" src="/img/icons/maps-and-flags.png"> Brasília, DF<br>
-        <img  class="customIconC" src="/img/icons/phone-call.png">Celular: (61) 99905-2256 / (61) 98219-7817<br>
+        <img  class="customIconC" src="/img/icons/phone-call.png">Celular: (61) 99905-2256<br>
         <img  class="customIconC" src="/img/icons/letter.png">E-mail: gmfformiga@gmail.com<br>
         <div>
 
@@ -203,17 +204,20 @@
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Iníncio</a>
-  <!--
+  <a href="#home" class="w3-button w3-light-grey"><img class="customIcon" src="/img/icons/home-icon-silhouette.png">Início</a>
+  
   <div class="w3-xlarge w3-section">
+    Desenvolvido por: Gabriel Menezes Formiga
+    <!--
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-snapchat w3-hover-opacity"></i>
     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
+    -->
   </div>
--->
+
   <!--
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
   -->
