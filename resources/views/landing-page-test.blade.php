@@ -42,7 +42,7 @@
   <h3 class="w3-center">BIOGRAFIA</h3>
   <p class="w3-center"><em></em></p>
   <p>Tenho 23 anos, sou bacharelado em Ciência da Computação, formado em dezembro de 2018 pelo UniCEUB. Gosto de jogar videogame e
-  torcer para o meu time de futebol americano, o Seattle Seahawks. Faço transmissões na <a href="https://www.twitch.tv/meneziis">Twitch</a> por gosto.
+  torcer para o meu time de futebol americano, o Seattle Seahawks. Faço transmissões na <a href="#twitch">Twitch</a> por gosto.
   Meus estilos de música favoritos são: Heavy Metal, Eletrônica, Jazz e Rock Clássico. Falando em jogos, eu participo de campeonatos da 
   Liga Amadora da GamersClub de Counter-Strike: Global Offensive.</p>
   <div class="w3-row">
@@ -63,6 +63,7 @@
   </div>
   <p class="w3-large w3-center w3-padding-16"><a href="{{route('download')}}">Meu curriculo</a></p>
 </div>
+<p id="twitch"></p><br><br>
 
 <h3 class="w3-center twtichSectionText"><a href="https://www.twitch.tv/meneziis" style="text-decoration:none">MEU CANAL NA TWITCH<img src="img/twitch_PNG8.png" class="twtichLogo"></a></h3>
 
