@@ -61,11 +61,11 @@
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:95%">95%</div>
   </div>
-  <p class="w3-large w3-center w3-padding-16"><a href="{{route('download')}}">Meu curriculo</a></p>
+  <p class="w3-large w3-center w3-padding-16"><a href="https://drive.google.com/open?id=11d9Ep2_t57AZHlJ-dQpXIdp-OsJRSnKQ">Meu curriculo</a></p>
 </div>
 <p id="twitch"></p><br><br>
 
-<h3 class="w3-center twtichSectionText"><a href="https://www.twitch.tv/meneziis" style="text-decoration:none">MEU CANAL NA TWITCH<img src="img/twitch_PNG8.png" class="twtichLogo"></a></h3>
+<h3 class="w3-center twtichSectionText"><a href="https://www.twitch.tv/meneziis" style="text-decoration:none" target="_blank">MEU CANAL NA TWITCH<img src="img/twitch_PNG8.png" class="twtichLogo"></a></h3>
 
 <div class="w3-row w3-center twtichSection w3-padding-16">
   <div class="w3-quarter w3-section">
@@ -102,39 +102,39 @@
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
        <!--<img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">-->
-       <a href="https://github.com/formiga1995" class="conectionsA"><img src="img/icons/github-logo.png" class="customIcon">GitHub</a>
+       <a href="https://github.com/formiga1995" class="conectionsA" target="_blank"><img src="img/icons/github-logo.png" class="customIcon">GitHub</a>
     </div>
 
     <div class="w3-col m3">
        <!--<img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">-->
-       <a href="https://www.linkedin.com/in/gabriel-menezes-formiga-4b6164152/" class="conectionsA"><img src="img/Linkedin.png" class="customIcon">Linked In</a>
+       <a href="https://www.linkedin.com/in/gabriel-menezes-formiga-4b6164152/" class="conectionsA" target="_blank"><img src="img/Linkedin.png" class="customIcon">Linked In</a>
     </div>
 
     <div class="w3-col m3">
        <!--<img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">-->
-       <a href="https://www.facebook.com/gabriel.m.formiga" class="conectionsA"><img src="img/icons/facebook.png" class="customIcon">Facebook</a>
+       <a href="https://www.facebook.com/gabriel.m.formiga" class="conectionsA" target="_blank"><img src="img/icons/facebook.png" class="customIcon">Facebook</a>
     </div>
 
     <div class="w3-col m3">
        <!--<img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">-->
-       <a href="https://www.instagram.com/meneziis/?hl=pt-br" class="conectionsA"><img src="img/icons/instagram.png" class="customIcon">Instagram</a>
+       <a href="https://www.instagram.com/meneziis/?hl=pt-br" class="conectionsA" target="_blank"><img src="img/icons/instagram.png" class="customIcon">Instagram</a>
     </div>
   </div>
 
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
        <!--<img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">-->
-       <a href="https://www.skype.com/pt-br/" class="conectionsA"><img src="img/skype-logo-1.png" class="customIcon">mhenezis_br</a>
+       <a href="https://www.skype.com/pt-br/" class="conectionsA" target="_blank"><img src="img/skype-logo-1.png" class="customIcon">mhenezis_br</a>
     </div>
 
     <div class="w3-col m3">
        <!--<img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">-->
-       <a href="https://steamcommunity.com/id/meneziis" class="conectionsA"><img src="img/icons/steam-logo.png" class="customIcon">Steam</a>
+       <a href="https://steamcommunity.com/id/meneziis" class="conectionsA" target="_blank"><img src="img/icons/steam-logo.png" class="customIcon">Steam</a>
     </div>
 
     <div class="w3-col m3">
        <!--<img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">-->
-       <a href="https://discord.gg/hQ9qXNs" class="conectionsA"><img src="img/icons/discord.png" class="customIcon">Discord</a>
+       <a href="https://discord.gg/hQ9qXNs" class="conectionsA" target="_blank"><img src="img/icons/discord.png" class="customIcon">Discord</a>
     </div>
 
     <div class="w3-col m3">
